@@ -1,0 +1,38 @@
+:root{
+    --background_title: #35495e;
+    --font_color: #eee;
+    --background_buttons: #41b883;
+    --background_buttons_hover: #379c6f;
+}
+html, body{
+    background-color: var(--background_title);
+    color: var(--font_color);
+}
+
+.app{
+    display: block;
+    text-align: center;
+}
+
+
+.count{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+button{
+    background-color: var(--background_buttons);
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    color: snow;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 0.5rem;
+    transition: 500ms;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: var(--background_buttons_hover)
+}
